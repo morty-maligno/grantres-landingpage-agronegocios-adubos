@@ -21,7 +21,7 @@ const Footer = () => (
         }
       >
         <li>
-          <Link href="/">Produtos</Link>
+          <Link href="/">Whatsapp</Link>
         </li>
       </CenteredFooter>
     </Section>
