@@ -3,27 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Benefícios dos Nossos Adubos Agrícolas"
+    description="Descubra por que os nossos adubos são a escolha ideal para impulsionar o crescimento e a produtividade das suas culturas."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      title="Nutrientes Essenciais"
+      description="Nossos adubos são ricos em nutrientes essenciais, como Nitrogênio, Fósforo e Potássio, para garantir o desenvolvimento saudável das suas plantas."
+      image="/assets/images/nutrientes.svg"
+      imageAlt="Nutrientes Essenciais"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      title="Resultados Comprovados"
+      description="Com anos de pesquisa e experiência, nossos adubos oferecem resultados comprovados, aumentando a produção e a qualidade das colheitas."
+      image="/assets/images/resultados.svg"
+      imageAlt="Resultados Comprovados"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      title="Sustentabilidade"
+      description="Comprometidos com a sustentabilidade, nossos adubos são formulados para minimizar o impacto ambiental, garantindo um cultivo responsável."
+      image="/assets/images/sustentabilidade.svg"
+      imageAlt="Sustentabilidade"
     />
   </Section>
 );
